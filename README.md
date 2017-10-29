@@ -1,6 +1,8 @@
 # pmod
 
-PS: Currently not even tested once. But should work in theory. :-D
+Get your node modules with functions that return promises if you don't give them a callback.
+
+PS: Currently not all functions are tested. But should work in theory. :-D
 
 ## Install
 

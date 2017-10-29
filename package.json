@@ -1,6 +1,6 @@
 {
   "name": "pmod",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get node modules with functions that return promises if you don't give them a callback. Otherwise works as before.",
   "main": "index.js",
   "directories": {
