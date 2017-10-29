@@ -1,0 +1,27 @@
+{
+  "name": "pmod",
+  "version": "0.0.1",
+  "description": "Get node modules with functions that return promises if you don't give them a callback. Otherwise works as before.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torvalamo/pmod.git"
+  },
+  "keywords": [
+    "node",
+    "modules",
+    "promise",
+    "promises",
+    "callback",
+    "promisify"
+  ],
+  "author": "Tor Valamo <tor.valamo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torvalamo/pmod/issues"
+  },
+  "homepage": "https://github.com/torvalamo/pmod#readme"
+}
