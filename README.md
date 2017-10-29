@@ -42,7 +42,7 @@ This means that you can use promises in their async versions.
 
 	const fs = require('pmod').fs;
 	
-	let stream = fs.createWritable('myfile'); // returns a stream.Writable object
+	let stream = fs.createWriteStream('myfile'); // returns a stream.Writable object
 	
 	stream.write('test')
 		.then(() => stream.write('next'))
