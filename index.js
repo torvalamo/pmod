@@ -8,7 +8,7 @@ module.exports = new Proxy({}, {
 			try {
 				let methods  = require(`./lib/${module}`);
 				handleModule(original, promisified, methods);
-			} catch () {
+			} catch (e) {
 				return original;
 			}
 			
