@@ -2,6 +2,11 @@
 
 Get your node modules with functions that return promises if you don't give them a callback.
 
+If you request a module that is not supported, it will give you the default module instead.
+
+These modules are currently supported: child_process, cluster, crypto, dgram,
+dns, fs, http, http2, https, inspector, net, realine, stream, timers, tls, zlib
+
 PS: Currently not all functions are tested. But should work in theory. :-D
 
 ## Install
